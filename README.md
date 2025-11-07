@@ -13,10 +13,10 @@ HTML5  |  CSS3  |  Bootstrap 5 (CDN)  |  Animate.css
 
 ## 🚀 Live Preview
 **GitHub Pages:**  
-https://yourusername.github.io/UI_Creatives_Website/
+https://poorna9866.github.io/UI_Creatives_Website/
 
 **Repository:**  
-https://github.com/yourusername/UI_Creatives_Website
+https://github.com/poorna9866/UI_Creatives_Website
 
 ## 🧠 Reflection
 - Learned responsive Bootstrap layout design  
