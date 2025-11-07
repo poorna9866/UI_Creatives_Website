@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UI Creatives | Home</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" tabindex="0">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-gradient" href="#">UI Creatives</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section id="home" class="hero-light hero-large text-center d-flex align-items-center justify-content-center">
+  <div class="container">
+    <h1 class="display-5 fw-bold animate__animated animate__fadeInDown">Design. Build. Inspire.</h1>
+    <p class="lead text-muted mt-3 animate__animated animate__fadeInUp">
+      Creating elegant web solutions with creativity & precision.
+    </p>
+    <a href="about.html" class="btn btn-primary btn-lg mt-4 shadow animate__animated animate__fadeInUp animate__delay-1s">
+      Learn More
+    </a>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="py-5 bg-light position-relative">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-5 text-gradient">Our Expertise</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card feature-card p-4 border-0 shadow-sm glass">
+          <i class="bi bi-palette display-5 text-gradient mb-3"></i>
+          <h5 class="fw-bold">UI/UX Design</h5>
+          <p class="text-muted">We craft smooth, aesthetic, and human-centered interfaces.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card feature-card p-4 border-0 shadow-sm glass">
+          <i class="bi bi-laptop display-5 text-gradient mb-3"></i>
+          <h5 class="fw-bold">Web Development</h5>
+          <p class="text-muted">Modern responsive layouts optimized for performance.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card feature-card p-4 border-0 shadow-sm glass">
+          <i class="bi bi-lightning display-5 text-gradient mb-3"></i>
+          <h5 class="fw-bold">Creative Strategy</h5>
+          <p class="text-muted">Transforming ideas into visually compelling digital stories.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="custom-shape-divider-bottom">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M321.39,56.44C175.34,76.17,34.25,98.88,0,109.38V0H1200V27.35C1045.46,52.53,756.43,78.5,321.39,56.44Z"
+        class="shape-fill"></path>
+    </svg>
+  </div>
+</section>
+
+<!-- Carousel -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4 text-gradient">Recent Projects</h2>
+    <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner rounded-4 shadow-lg">
+        <div class="carousel-item active">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="Project 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1522205408450-add114ad53fe?auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="Project 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="Project 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 text-center bg-white shadow-sm">
+  <p class="text-muted mb-0">&copy; 2025 UI Creatives — Crafted with ❤️ using Bootstrap 5</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

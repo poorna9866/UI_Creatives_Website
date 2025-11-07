@@ -1,0 +1,115 @@
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background-color: #fefefe;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.nav-link {
+  color: #444 !important;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: #00a2ff !important;
+}
+
+/* Hero */
+.hero-light {
+  background: linear-gradient(180deg, #eaf3ff 0%, #ffffff 100%);
+  animation: fadeSlide 8s ease-in-out infinite alternate;
+}
+.hero-large {
+  min-height: 90vh;
+  padding: 120px 20px;
+}
+.hero-small {
+  min-height: 45vh;
+  padding: 60px 20px;
+}
+@keyframes fadeSlide {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+/* Gradient text */
+.text-gradient {
+  background: linear-gradient(90deg, #00a2ff, #9a3cff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+/* Feature cards */
+.feature-card {
+  border-radius: 16px;
+  transition: all 0.4s ease;
+}
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+}
+
+/* Section divider */
+.custom-shape-divider-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.custom-shape-divider-bottom svg {
+  display: block;
+  width: 100%;
+  height: 60px;
+}
+.custom-shape-divider-bottom .shape-fill {
+  fill: #ffffff;
+}
+
+/* Carousel */
+.carousel-item img {
+  height: 480px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(90deg, #00a2ff, #9a3cff);
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Footer */
+footer {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-large {
+    padding: 80px 20px;
+  }
+  .hero-small {
+    padding: 50px 20px;
+  }
+}
